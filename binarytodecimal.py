@@ -7,3 +7,5 @@ def binary(d):
 d=int(input())
 print(binary(d))
         
+
+        

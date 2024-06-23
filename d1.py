@@ -744,27 +744,29 @@
 
 # 12.Given an array of strings words and width max width format the text such that each line has exactly max width characters and is fully justified you should pack your words in a greedy approach i.e., pack as many words that you can in each line. Pad extra spaces when necessary so that each line has exactly max width characters. Extra spaces between the words should be distributed as evenly as possible. If the number of space on a line does not divide evenly between the words, empty slots on the left will be assigned more space will be assigned on the right. For the last line of text it should be left JUSTIFIED and no space is inserted between the words 
 
-from textblob import TextBlob
+# from textblob import TextBlob
 
-def analyze_sentiment(text):
-    analysis = TextBlob(text)
+# def analyze_sentiment(text):
+#     analysis = TextBlob(text)
 
-    # Get polarity and subjectivity
-    polarity = analysis.sentiment.polarity
-    subjectivity = analysis.sentiment.subjectivity
+#     # Get polarity and subjectivity
+#     polarity = analysis.sentiment.polarity
+#     subjectivity = analysis.sentiment.subjectivity
 
-    # Determine sentiment
-    if polarity > 0:
-        sentiment = "Positive"
-    elif polarity < 0:
-        sentiment = "Negative"
-    else:
-        sentiment = "Neutral"
+#     # Determine sentiment
+#     if polarity > 0:
+#         sentiment = "Positive"
+#     elif polarity < 0:
+#         sentiment = "Negative"
+#     else:
+#         sentiment = "Neutral"
 
-    return sentiment, polarity, subjectivity
+#     return sentiment, polarity, subjectivity
 
-text = input("Enter text to analyze sentiment: ")
-sentiment, polarity, subjectivity = analyze_sentiment(text)
-print(f"Sentiment: {sentiment}")
-print(f"Polarity: {polarity}")
-print(f"Subjectivity: {subjectivity}")
+# text = input("Enter text to analyze sentiment: ")
+# sentiment, polarity, subjectivity = analyze_sentiment(text)
+# print(f"Sentiment: {sentiment}")
+# print(f"Polarity: {polarity}")
+# print(f"Subjectivity: {subjectivity}")
+
+print(7//-3)
