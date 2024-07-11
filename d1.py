@@ -800,20 +800,46 @@
 # else:
 #     print(False)
 
+#encode
 
-
-         
-
-
-
-
-
-
-
+# strs = ["neet", "code", "love", "you"]
+# res=""
+# for i in strs:
+#     res+=str(len(strs))+"#"+i
+# print(res)
 
 
 
+#decode
+s = "4#neet4#code4#love4#you"
+res=[]
+i=0
+for i in range(0,len(s)):
+    for j in range(i,len(s)):
+        if s[j]!="#":
+            j+=1
+        length=s[i:j]
+        i=j+1
+        j=i+int(length)
+        res.append(s[i:j])
+      
+print(res)
 
-        
-        
-        
+
+
+
+
+
+
+# while i<len(s):
+#     j=i
+#     while s[j]!="#":
+#         j+=1
+#     length =s[i:j]
+#     i=j+1
+#     j=i+int(length)
+#     res.append(s[i:j])
+#     i=j
+#     print(res)
+
+
